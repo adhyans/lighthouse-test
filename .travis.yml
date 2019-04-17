@@ -1,0 +1,16 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - "7"
+before_script:
+  - npm prune
+script:
+  - npm run test
+after_success:
+  - npm run build
+  - npm run deploy
+  - npm run lh -- https://hurricanew.github.io/webnowtalk
