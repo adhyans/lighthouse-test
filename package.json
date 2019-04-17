@@ -1,0 +1,25 @@
+{
+	"name": "lighthouse-test",
+	"version": "1.0.0",
+	"description": "Testing light house integration",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Tested successfully\"",
+		"deploy": "gh-pages -d ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adhyans/lighthouse-test.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/adhyans/lighthouse-test/issues"
+	},
+	"homepage": "https://adhyans.github.io/lighthouse-test",
+	"devDependencies": {
+		"deploy-to-gh-pages": "1.3.6",
+		"gh-pages": "^2.0.1",
+		"lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
+	}
+}
